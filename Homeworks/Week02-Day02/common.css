@@ -1,0 +1,10 @@
+.columns{
+    width: 550px;
+    height: 350px;
+    
+    background-color: rgba(235, 235, 235, 0.808);
+    border-radius: 12px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
