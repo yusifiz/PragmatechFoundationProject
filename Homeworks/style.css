@@ -1,0 +1,25 @@
+body{
+    margin: 0px;
+}
+.container{
+    width: 1200px;
+    border: 1px solid gray;
+    margin: 0px auto;
+}
+
+.row{
+    display: flex;
+    justify-content: space-between;
+
+    flex-wrap: wrap;
+}
+.column{
+    width: 375px;
+    min-height: 400px;
+    border: green 1px solid;
+    padding: 10px;
+    box-sizing: border-box
+    
+}
+
+
