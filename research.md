@@ -2,11 +2,11 @@
 
 # Suallar
 
-> 1.justify-content və align-items xüsusiyyətləri arasındakı fərqləri izah edin.
-> 2.align-items və align-content arasındakı fərqləri izah edin.
-> 3.box-sizing: border-box xüsusiyyəti hansı hallarda istifadə olunur?
-> 4.inline styling hansı hallarda istifadə oluna bilər?
-> 5.css-də !important və inherit ifadələrinin mənası nədir?
+- 1.justify-content və align-items xüsusiyyətləri arasındakı fərqləri izah edin.
+- 2.align-items və align-content arasındakı fərqləri izah edin.
+- 3.box-sizing: border-box xüsusiyyəti hansı hallarda istifadə olunur?
+- 4.inline styling hansı hallarda istifadə oluna bilər?
+- 5.css-də !important və inherit ifadələrinin mənası nədir?
 
 # Cavablar
 
