@@ -23,7 +23,7 @@
 }
 
 .main-header{
-    height: 500px;
+    /* height: 500px; */
     background-position:50%;
     object-fit: cover;    
 }
@@ -50,7 +50,7 @@
     object-fit: cover;
     margin-top: 10px;
     position: relative;
-    top: 60px;
+    top: 40px;
 }
 
 .personal-profile-name{
@@ -74,7 +74,7 @@
 }
 
 .personal-profile-contact{
-    width: 50%;
+    width: 100%;
 }
 
 .list-group{
@@ -110,7 +110,7 @@
     padding-right: 15px;
 }
 
-.cnt{
+.about-header{
     width: 250px;
     padding-left: 50px;
 }
@@ -346,52 +346,50 @@
     width: 150px;
 }
 
-.cnt{
-    width: 350px;
-}
 
-.cnt input{
-    width: 100%;
-    background-color: transparent;
-    border-radius: 3px;
-    border: 1px solid black;
-    padding: 10px;
-    color: #fff;
-    font-size: 16px;
-    line-height: 24px;
-    font-family: Roboto Mono,monospace;
-}
-
-.cnt span{
-    background: transparent;
-    border: 1px solid black;
-}
-
-
-
-.cnt-text textarea{
-    background: transparent;
-    border: 1px solid black;
-    width: 300px;
-    height: 130px !important;
-    margin-left: 50px;
-    resize: none;
-}
-
-.cnt-text label{
-    margin-left: 50px;
+.btmInput{
+    max-width: 500px;
     
 }
 
-.main-cnt{
-    padding-left: 100px ;
+.bottom-input{
+    max-width: 600px;
+    max-height: 20px;
+
 }
 
-.send-btn{
-    margin:0px;
-    border-radius: 25px;
-    width: 300px;
-    margin-top: 20px;
-    position: relative;
-    right: 58px;
+.bottom-input-text{
+    max-width: 600px;
+    max-height: 50px;
+    
 }
+
+.form-control{
+    background: transparent;
+    border: none;
+    outline: none;
+    
+}
+
+.input-group-text{
+    background: transparent;
+    border: none;
+    outline: none;
+
+}
+
+.btm-input-b{
+    border: 1px solid rgba(0,0,0,.125);
+}
+
+.bottom-input-text textarea{
+    resize: none;
+}
+
+@media (max-width:540px) {
+   .contact-part {
+       display: flex;
+       flex-direction: column;
+   }
+}
+
