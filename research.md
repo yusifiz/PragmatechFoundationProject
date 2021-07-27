@@ -48,3 +48,30 @@
 
 * utf-8 səhifənin şriftini müəyyən edir.
 
+## Araşdırma-03
+
+# Mövzular
+
+1. Yaddaşdan istifadəyə görə
+- interpereter dillər
+- compiler dillər
+2. Dizayn uslubuna gore diller (Pragadigmalar)
+- imperative uslub
+- declarative uslub
+
+# Cavablar
+
+1. Yaddaşdan istifadəyə görə proqramlaşdırma dilləri 2 yerə bölünür: 1.Interpreter dillər 2.Compiler dillər.
+
+* Oxşar cəhətləri: Hər ikisi eyni funksiyanı yerinə yetirir. Yəni, hər ikisi proqramlaşdırma dilində verdiyimiz əmrləri maşın dilinə (machine language) tərcümə edir. Bizim hal-hazırda istifadə etdiyimiz proqramlaşdırma dilləri High Level Language sayılır, çünki bu dillərdə istifadə etdiyimiz kodlar insan dilinə ən yaxın kodlardır. Bir sözlə, interpreter və compiler bizim başa düşdüyümüz dili maşına başa salır.)
+
+* Fərqli cəhətləri:
+- Interpreter dillər: Əmrləri sətir-sətir tərcümə edir. Yəni yanlış koda qədər bütün kodları tərcümə edir, bu da kodu təhlil etmək üçün daha az vaxt sərf etməyimiz deməkdir. Həmçinin heç bir obyekt kodu yaratmadığı üçün yaddaşdan daha səmərəli istifadə edir.
+- Compiler dillər: Yazılan proqramları bütünlüklə tərcümə edir. Kodda yanlış varsa, proqramı ümumiyyətlə tərcümə etmir, lakin interpreter dillərdən fərqli olaraq, ümumi icra müddəti daha sürətlidir. Obyekt kodu yaratdığı üçün yaddaşdan daha çox istifadə edir.
+
+2. Dizayn üslubuna görə də proqramlaşdırma dilləri əsas iki yerə bölünür və bunlara paradiqmalar deyilir: 1.İmperativ paradiqma 2.Deklarativ paradiqma.
+
+* Paradiqmalar istifadə olunan proqramlaşdırma dilinə görə fərqlilik göstərir. Belə ki, bəzi dillərdə asan olan üslub digərlərində daha çətin ola bilər. Ümumi olaraq, paradiqma dediyimiz şey kodun üslubunu, problemin hansı strategiya ilə həll olacağını göstərir.
+
+- İmperativ üslub: Bu üslubda yazdığımız kodlar maşına sətir-sətir izah edilir. Yəni, nəticəni görmək üçün lazım olan hər addımı siz təyin edirsiniz.İmperativ paradiqması da kod yazılış üslubuna görə Prosesli, Obyekt yönümlü və Paralel prosesli kimi bir neçə yerə bölünür. Bu üslub daha çox 'old' dillərdə istifadə olunduğna görə klassik üslub da deyilir.
+- Deklarativ üslub: Bu üslubda isə problemi həll etmək üçün onun nə olduğunu bilmək kifayətdir.Deklarativ paradiqması da Məntiqi, Funksional və Məlumat bazası emalı kimi bir neçə yerə bölünür. Biz sadəcə maşına nəticəni bildiririk, necə edəcəyini isə özü bilir.) Bu üslub isə əsasən yeni dillərdə istifadə olunur.
