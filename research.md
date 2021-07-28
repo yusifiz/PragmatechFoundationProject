@@ -75,3 +75,28 @@
 
 - İmperativ üslub: Bu üslubda yazdığımız kodlar maşına sətir-sətir izah edilir. Yəni, nəticəni görmək üçün lazım olan hər addımı siz təyin edirsiniz.İmperativ paradiqması da kod yazılış üslubuna görə Prosesli, Obyekt yönümlü və Paralel prosesli kimi bir neçə yerə bölünür. Bu üslub daha çox 'old' dillərdə istifadə olunduğna görə klassik üslub da deyilir.
 - Deklarativ üslub: Bu üslubda isə problemi həll etmək üçün onun nə olduğunu bilmək kifayətdir.Deklarativ paradiqması da Məntiqi, Funksional və Məlumat bazası emalı kimi bir neçə yerə bölünür. Biz sadəcə maşına nəticəni bildiririk, necə edəcəyini isə özü bilir.) Bu üslub isə əsasən yeni dillərdə istifadə olunur.
+
+## Araşdırma-04
+
+# Suallar
+
+1. Mən niyə javascript öyrənməliyəm?
+2. Yeni proqramlaşdırma dilini öz başıma öyrənməli olsaydım nə edərdim?
+3. dəyişən təyin edərkən hansı sintaktik qaydalara diqqət etməliyik?
+4. javascript kodlarının oxunma sırası necədir?
+5. niyə mən yazılan javascript kodunu browserda açıram?
+6. javascript operatorlarının istifadə edərkən nələrə diqqət etməliyəm?
+
+# Cavablar
+
+1. Fikrimcə, yazdığım html səhifələrini daha dinamik, əlaqəli və fərqli görünüm yaratmaq üçün öyrənməliyəm.
+
+2. Kursa başlamazdan əvvəl təcrübə etdiyim kimi desək, c++, python basic səviyyədə youtube və digər platformalardan search edərək öyrənirdim. Əgər youtube platformasını Samir müəllim ləğv etmiş olsa idi, hər halda əvvəlcə proqramlaşdırmanı niyə öyrənəcəyimə, daha sonra hansı sahəsini öyrənəcəyimə qərar verərdim. Sonra isə həmin sahəyə hardan başlamaq lazım olduğunu search edərdim.
+
+3. Dəyişən tipinin dəyişənə uyğun olmasına və harada istifadə edəcəyimizə diqqət etmək lazımdır.
+
+4. Js'də oxunma sırası yuxarıdan aşağıya doğrudur, proqram əvvəlcə bütün kodu oxuyur, daha sonra ardıcıllıqla icra edir.
+
+5. Js'i istifadə etmək üçün lazım olan interpreter browser'lərdə hazır mövcud olur. Və Js'i interpret etmək üçün engine deyilən vasitələrdən istifadə olunur. Məsələn bunlar, Chrome'da V8, Firefox'da SpiderMonkey, Internet Explorer'də Chakra, Safari'də JavaScriptCore'dur.
+
+6. Operatorlardan istifadə edərkən, onların yalnız riyazi ifadələr olmadığını bilmək lazımdır. Həmçinin functions, conditional statements(şərti ifadələr), loop'larda (dövr) düzgün istifadə etmək etmək lazımdır.
