@@ -4,31 +4,33 @@ let btnRight = document.querySelector('.btn-right')
 let btnUp = document.querySelector('.btn-up')
 let btnDown = document.querySelector('.btn-down')
 let btnLeft = document.querySelector('.btn-left')
-marginVal = 0;
-
+marginValRight = 0;
+marginValLeft = 0;
+marginValUp = 0;
+marginValDown = 0;
 
 
 btnRight.addEventListener('click',function(){
-    let moveBox = document.querySelector('.box').style.marginLeft = `${marginVal}px`
+    let moveBox = document.querySelector('.box').style.marginLeft = `${marginValRight}px`
     let moveForm = document.querySelector('.box').style.transition = "all .5s"
-    marginVal +=20;
+    marginValRight +=20;
 
 })
 btnLeft.addEventListener('click',function(){
-    let moveBox = document.querySelector('.box').style.marginRight = `${marginVal}px`
+    let moveBox = document.querySelector('.box').style.marginRight = `${marginValLeft}px`
     let moveForm = document.querySelector('.box').style.transition = "all .5s"
-    marginVal +=20;
+    marginValLeft +=20;
 
 })
 btnUp.addEventListener('click',function(){
-    let moveBox = document.querySelector('.box').style.marginBottom = `${marginVal}px`
+    let moveBox = document.querySelector('.box').style.marginBottom = `${marginValUp}px`
     let moveForm = document.querySelector('.box').style.transition = "all .5s"
-    marginVal +=20;
+    marginValUp +=20;
 
 })
 btnDown.addEventListener('click',function(){
-    let moveBox = document.querySelector('.box').style.marginTop = `${marginVal}px`
+    let moveBox = document.querySelector('.box').style.marginTop = `${marginValDown}px`
     let moveForm = document.querySelector('.box').style.transition = "all .5s"
-    marginVal +=20;
+    marginValDown +=20;
 
 })
