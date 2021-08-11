@@ -14,7 +14,7 @@
     - İşin bitmə müddəti: 2 ay
 
 * Portfolio Templete
-    - [Kodlar](https://github.com/yusifiz/PragmatechFoundationProject/tree/main/Works/HTML-CSS/Portfolio)
+    - [Kodlar](https://github.com/yusifiz/PragmatechFoundationProject/tree/main/Works/HTML-CSS/PortfolioTemplete)
     - İşdə istifadə olunan texnologiyalar: HTML, CSS, BootStrap
     - İşin bitmə müddəti: 3 gün (ilk 2 həftədə)
 
