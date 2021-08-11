@@ -1,0 +1,45 @@
+.bg-dark {
+    background: black;
+}
+
+.bg-light {
+    background: yellow;
+}
+
+.bg-primary {
+    background: blue;
+}
+
+.bg-gr{
+    background-color: green;
+}
+
+.border-dark {
+    border: 1px solid black;
+}
+
+.border-light {
+    border: 1px solid yellow;
+}
+
+.border-primary {
+    border: 1px solid blue
+}
+
+.border-gr{
+    border: 1px solid green;
+}
+.textcl-red{
+    color: red;
+}
+.textcl-yellow{
+    color: yellow;
+}
+.textcl-black{
+    color: black;
+}
+.item{
+    min-height: 100px;
+    margin: 10px;
+
+}

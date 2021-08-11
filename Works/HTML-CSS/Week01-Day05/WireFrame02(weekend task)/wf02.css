@@ -1,0 +1,218 @@
+.container{
+    width: 50%;
+    height: 1000px;
+    
+    background-color: rgb(216, 214, 214);
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.topRow{
+    width: 100%;
+    height: 100px;
+    
+}
+
+.row01{
+    width: 98%;
+    height: 30px;
+    background-color: darkslategrey;
+    margin: 10px;
+    display: flex;
+    justify-content: flex-end;
+    
+}
+
+.row02{
+    width: 98%;
+    height: 40px;
+    background-color: darkslategrey;
+    margin: 10px;
+}
+
+.box{
+    width: 100px;
+    height: 10px;
+    border: 1px solid black;
+    margin: 10px;
+    background-color:gray;
+}
+
+.mainBlock{
+    width: 100%;
+    height: 800px;
+    
+    display: flex;
+}
+
+.leftColumn{
+    width: 20%;
+    height: 800px;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.leftColumnBox1{
+    width: 80%;
+    height: 120px;
+    background-color: darkslategrey;
+    margin:0 auto;
+}
+
+.leftColumnBox2{
+    width: 80%;
+    height: 20px;
+    background-color: darkslategrey;
+    margin: 0 auto;
+
+}
+
+.leftColumnBox3{
+    width: 80%;
+    height: 250px;
+    background-color: darkslategrey;
+    margin: 0 auto;
+}
+
+.leftColumnBox4{
+    width: 80%;
+    height: 120px;
+    background-color: darkslategrey;
+    margin: 0 auto;
+}
+
+.middleColumn{
+    width: 60%;
+    height: 800px;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.middleColumnBox1{
+    width: 100%;
+    height: 25px;
+    background-color: darkslategrey;
+    margin: 0 auto;
+}
+
+.middleColumnBox2{
+    width: 100%;
+    height: 250px;
+    background-color: darkslategrey;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.imageBox{
+    width: 90%;
+    height: 190px;
+    
+    margin: 0 auto;
+    display: flex;
+    
+}
+
+.imageBlock{
+    width: 60%;
+    height: 100%;
+    background-color: lightcyan;
+}
+
+.grayBlock{
+    width: 40%;
+    height: 100%;
+    background-color: gray;;
+}
+
+.adBoxes{
+    width: 90%;
+    height: 50px;
+    
+    display: flex;
+    margin: 0 auto;
+}
+
+.ad{
+    width: 30%;
+    height: 35px;
+    background-color: gray;
+    margin: 10px;
+}
+
+.middleColumnBox3{
+    width: 100%;
+    height: 80px;
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center ;
+}
+
+.box3LeftBox{
+    width: 35%;
+    height: 60px;
+    background-color: darkslategrey;
+}
+
+.box3RightBox{
+    width: 55%;
+    height: 60px;
+    background-color: darkslategrey;
+}
+
+.middleColumnBox4{
+    width: 100%;
+    height: 25%;
+    background-color: darkslategrey;
+}
+
+.middleColumnBox5{
+    width: 100%;
+    height: 25%;
+    background-color: darkslategrey;
+}
+
+.rightColumn{
+    width: 20%;
+    height: 800px;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.rightColumnBox1{
+    width: 80%;
+    height: 150px;
+    background-color: darkslategrey;
+    margin: 0 auto;
+}
+
+.rightColumnBox2{
+    width: 80%;
+    height: 300px;
+    background-color: darkslategrey;
+    margin: 0 auto;
+}
+
+.rightColumnBox3{
+    width: 80%;
+    height: 100px;
+    background-color: darkslategrey;
+    margin: 0 auto;
+}
+
+.bottomRow{
+    width: 96%;
+    height: 80px;
+    background-color: darkslategrey;
+    display: flex;
+    justify-content: center;
+    margin:10px auto;
+}
