@@ -1,6 +1,6 @@
 let toggler = document.getElementById("toggler")
 let closeTog = document.querySelector(".closeMenu span i")
-let closeLink = document.querySelector(".menuItms")
+let closeLink = document.querySelectorAll(".menuItms")
 let header = document.querySelector(".salam")
 let headerR = document.querySelector(".xulase")
 let headerP = document.querySelector(".layiheler")
@@ -86,13 +86,13 @@ closeTog.addEventListener('click',()=>{
     overlay.style.transition = "all .3s ease"
 })
 
-closeLink.addEventListener('click',()=>{
-  let overlay = document.querySelector(".overlay")
-  overlay.style.opacity = "0";
-  overlay.style.visibility = "hidden";
-  overlay.style.transition = "all .3s ease"
+closeLink.forEach(function(element,index){
+  element.querySelector(".linK").addEventListener('click',function(){
+    this.parentElement.parentElement.parentElement.style.opacity="0";
+    this.parentElement.parentElement.parentElement.style.visibility="hidden";
+    this.parentElement.parentElement.parentElement.style.transition = "all .3s ease"
+  })
 })
-
 
 
 function typeH(){ 
