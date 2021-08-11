@@ -23,3 +23,6 @@
     - İşdə istifadə olunan texnologiyalar: HTML, grid layout system, CSS
     - İşin bitmə müddəti: 1 gün (ilk 2 həftədə)
 
+## Tədris müddətində yazdığım məqalələr
+
+* [World Wide Web "günü"](https://medium.com/@yusifosmanov475/world-wide-web-g%C3%BCn%C3%BC-cf6fbc3fee2a)
