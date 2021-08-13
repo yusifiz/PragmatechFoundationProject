@@ -11,7 +11,7 @@
 * My Portfolio
     - [Kodlar](https://github.com/yusifiz/MyPortfolio)
     - İşdə istifadə olunan texnologiyalar: HTML, CSS, Bootstrap, JavaScript
-    - İşin bitmə müddəti: 2 ay
+    - İşin bitmə müddəti: 10 gün (FrontEnd)
 
 * Portfolio Templete
     - [Kodlar](https://github.com/yusifiz/PragmatechFoundationProject/tree/main/Works/HTML-CSS/PortfolioTemplete)
