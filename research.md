@@ -105,9 +105,9 @@
 
 # Suallar və Cavabları
 
-1. Python module və package nədir? Necə istifadə olunur?
+1. ## Python module və package nədir? Necə istifadə olunur?
 
-## Modul nədir?
+### Modul nədir?
 
 Python'da yazdığımız hər proqram əslidə bir moduldur. Python'un bu baxımdan bizə verdiyi üstünlük isə bir növ function kimi modulları da istədiyimiz proqramın içində çağıra bilərik. Bu isə bizi kod təkrarından azad edir. Modullar 2 yerə bölünür:
 
@@ -121,53 +121,53 @@ Hər yazdığımız .py faylının bir modul olduğunu qeyd etdik. Python bizim 
 
 Standart kitabxana modulları pyhton yükləyəndə hazır gələn modullardır. Üçüncü şəxs modulları isə üçüncü şəxslər tərəfindən yazılıb istifadəyə verilən modullardır.
 
-## Package nədir?
+### Package nədir?
 
 Package modullar toplusudur deyə bilərik. Modulardan daha geniş bir qavramdır. Python'da ümumiyyətlə package'lərdən çox istifadə olunur. Hər sahə üçün ayrı bir package var. Məsələn, web application yazmaq üçün django, flask istifadə olunur. Yəni, bu framework'lər özlüyündə bir neçə moduldan ibarətdir.
 
-2. Module və package arasındakı fərqlər nələrdir?
+2. ## Module və package arasındakı fərqlər nələrdir?
 
- * Yuxarıda da qeyd etdiyim kimi, package modullar toplusudur. Məsələn, os.py bir moduldur, django isə package'dir.Eyni zamanda hər package bir moduldur, ancaq modullar bir package deyildir. Yəni 'venv' package'inə biz 'venv' modulu da deyə bilərik.
+  * Yuxarıda da qeyd etdiyim kimi, package modullar toplusudur. Məsələn, os.py bir moduldur, django isə package'dir.Eyni zamanda hər package bir moduldur, ancaq modullar bir package deyildir. Yəni 'venv' package'inə biz 'venv' modulu da deyə bilərik.
 
-3. Web Server nədir?
+3. ## Web Server nədir?
 
-* Web Server - istifadəçilərin internetdəki web-səhifələrə və digər verilənlərə daxil olmasına şərait yaradan xüsusi proqramlar ilə təmin olunmuş kompüterdir. Web-server web-saytın əsasını təşkil edir. Web-server informasiyaların saxlanılmasını, təşkilini və göndərilməsini təmin edir. Web-server web-brauzerdən qəbul etdiyi sorğu əsasında soruşulan sənədin elektron surətini istifadəçiyə göndərir. Belə sorğuların emal edilməsi və yerinə yetirilmə ardıcıllığı HTTP protokolu vasitəsilə yerinə yetirilir.
+    * Web Server - istifadəçilərin internetdəki web-səhifələrə və digər verilənlərə daxil olmasına şərait yaradan xüsusi proqramlar ilə təmin olunmuş kompüterdir. Web-server web-saytın əsasını təşkil edir. Web-server informasiyaların saxlanılmasını, təşkilini və göndərilməsini təmin edir. Web-server web-brauzerdən qəbul etdiyi sorğu əsasında soruşulan sənədin elektron surətini istifadəçiyə göndərir. Belə sorğuların emal edilməsi və yerinə yetirilmə ardıcıllığı HTTP protokolu vasitəsilə yerinə yetirilir.
 
-4. WSGI nədir?
+4. ## WSGI nədir?
 
-* Web Server Gateway Interface - Python'da yazılan kodun web-serverin başa düşəcəyi hala gətirən interfeysdir. Veb server request'ləri WSGI'ə göndərir, WSGI isə proramınızı işə salıb bu requestin cavablarını HTML olaraq veb serverə çatdırır.
+    * Web Server Gateway Interface - Python'da yazılan kodun web-serverin başa düşəcəyi hala gətirən interfeysdir. Veb server request'ləri WSGI'ə göndərir, WSGI isə proramınızı işə salıb bu requestin cavablarını HTML olaraq veb serverə çatdırır.
 
-5. Web Server və WSGI arasındakı fərqlər nələrdir?
+5. ## Web Server və WSGI arasındakı fərqlər nələrdir?
 
-* WSGI, veb serverdən fərqli portda işləyir. Yəni, veb serverlər pythonda yazılmış kodu başa düşmürlər bunun üçün WSGI'dən istifadə edirlər
+    * WSGI, veb serverdən fərqli portda işləyir. Yəni, veb serverlər pythonda yazılmış kodu başa düşmürlər bunun üçün WSGI'dən istifadə edirlər
 
-6. HTTP Request nədir?
+6. ## HTTP Request nədir?
 
-* Client server tərəfindən veb serverə verilən sorğudur. Əsas iki yerə bölünür:
+    * Client server tərəfindən veb serverə verilən sorğudur. Əsas iki yerə bölünür:
 
- * GET request
- * POST request
+      * GET request
+      * POST request
 
-7. GET,POST request nə deməkdir?
+7. ## GET,POST request nə deməkdir?
 
-  * GET request veb serverdən sadəcə məlumat alır.
-  * POST request isə veb serverə məlumat daxil edir.
+    * GET request veb serverdən sadəcə məlumat alır.
+    * POST request isə veb serverə məlumat daxil edir.
 
-8. Flask framework necə işləyir?
+8. ## Flask framework necə işləyir?
 
-[Web saytın işləmə məntiqi](https://www.google.com/url?sa=i&url=https%3A%2F%2Fcodeburst.io%2Fflask-for-dummies-a-beginners-guide-to-flask-part-uno-53aec6afc5b1&psig=AOvVaw1TaccmUYQ2PidtOUfrmyWy&ust=1629157628873000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCIjV2qWbtPICFQAAAAAdAAAAABAX)
+    [Web saytın işləmə məntiqi](https://www.google.com/url?sa=i&url=https%3A%2F%2Fcodeburst.io%2Fflask-for-dummies-a-beginners-guide-to-flask-part-uno-53aec6afc5b1&psig=AOvVaw1TaccmUYQ2PidtOUfrmyWy&ust=1629157628873000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCIjV2qWbtPICFQAAAAAdAAAAABAX)
 
-* Flask (django da həmçinin) jinja2 templete dilindən istifadə edir. Flask ümumiyyətlə python üçün yazılmış bir framework'dür. Vebə bir request göndərdiyimiz zaman, məlumat database'dən alınır, ORM'ə ötürülür, ordan flask framework'ə daha sonra isə HTML olaraq bizə qayıdır.
+    * Flask (django da həmçinin) jinja2 templete dilindən istifadə edir. Flask ümumiyyətlə python üçün yazılmış bir framework'dür. Vebə bir request göndərdiyimiz zaman, məlumat database'dən alınır, ORM'ə ötürülür, ordan flask framework'ə daha sonra isə HTML olaraq bizə qayıdır.
 
-9. URL nədir? Detalları nədən ibarətdir?
+9. ## URL nədir? Detalları nədən ibarətdir?
 
-* Uniform Resource Loader - kompüterin serverlə əlaqə qurması üçün istifadə olunur. Domain kimi, ip ünvanlarını sözə çevirərək daha asan yaddaqalan edir.
+    * Uniform Resource Loader - kompüterin serverlə əlaqə qurması üçün istifadə olunur. Domain kimi, ip ünvanlarını sözə çevirərək daha asan yaddaqalan edir.
 
-10. Virtual environment nədir? Nə üçün istifadə olunur?
+10. ## Virtual environment nədir? Nə üçün istifadə olunur?
 
-* Hər bir layihə üçün ayrıca virtual bir mühit yaratmaq üçün istifadə olunur. Əgər hər layihə üçün eyni flask'dən istifadə etsək, flask'də baş verəcək hər dəyişiklik (update) avtomatik olaraq bütün layihələrdə dəyişəcək. Bu isə bir çox hallarda istəməyəcəyimiz bir şeydir. Bu səbəbdən virtual environment bizim üçün daha əlverişlidir.
+    * Hər bir layihə üçün ayrıca virtual bir mühit yaratmaq üçün istifadə olunur. Əgər hər layihə üçün eyni flask'dən istifadə etsək, flask'də baş verəcək hər dəyişiklik (update) avtomatik olaraq bütün layihələrdə dəyişəcək. Bu isə bir çox hallarda istəməyəcəyimiz bir şeydir. Bu səbəbdən virtual environment bizim üçün daha əlverişlidir.
 
-11. from flask import Flask
+11. ## from flask import Flask
 
     app = Flask(__name__)
 
