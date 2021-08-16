@@ -1,0 +1,11 @@
+{% extends 'base.html' %} {% block content %}
+{% for worker in workers %}
+<div class="card mt-5">
+    
+    <div class="card-body">
+        <h4 class="card-title">Ad: {{worker['ad']}} Soyad :{{worker['soyad']}}</h4>
+        <p class="card-text">{{worker['email']}}</p>
+    </div>
+</div>
+{% endfor %}
+{% endblock %}
