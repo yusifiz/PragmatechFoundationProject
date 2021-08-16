@@ -76,7 +76,7 @@
 - İmperativ üslub: Bu üslubda yazdığımız kodlar maşına sətir-sətir izah edilir. Yəni, nəticəni görmək üçün lazım olan hər addımı siz təyin edirsiniz.İmperativ paradiqması da kod yazılış üslubuna görə Prosesli, Obyekt yönümlü və Paralel prosesli kimi bir neçə yerə bölünür. Bu üslub daha çox 'old' dillərdə istifadə olunduğna görə klassik üslub da deyilir.
 - Deklarativ üslub: Bu üslubda isə problemi həll etmək üçün onun nə olduğunu bilmək kifayətdir.Deklarativ paradiqması da Məntiqi, Funksional və Məlumat bazası emalı kimi bir neçə yerə bölünür. Biz sadəcə maşına nəticəni bildiririk, necə edəcəyini isə özü bilir.) Bu üslub isə əsasən yeni dillərdə istifadə olunur.
 
-## Araşdırma-04
+## Araşdırma-04 (JavaScript)
 
 # Suallar
 
@@ -100,3 +100,84 @@
 5. Js'i istifadə etmək üçün lazım olan interpreter browser'lərdə hazır mövcud olur. Və Js'i interpret etmək üçün engine deyilən vasitələrdən istifadə olunur. Məsələn bunlar, Chrome'da V8, Firefox'da SpiderMonkey, Internet Explorer'də Chakra, Safari'də JavaScriptCore'dur.
 
 6. Operatorlardan istifadə edərkən, onların yalnız riyazi ifadələr olmadığını bilmək lazımdır. Həmçinin functions, conditional statements(şərti ifadələr), loop'larda (dövr) düzgün istifadə etmək etmək lazımdır.
+
+## Araşdırma 05 (Python, Flask)
+
+# Suallar və Cavabları
+
+1. Python module və package nədir? Necə istifadə olunur?
+
+## Modul nədir?
+
+Python'da yazdığımız hər proqram əslidə bir moduldur. Python'un bu baxımdan bizə verdiyi üstünlük isə bir növ function kimi modulları da istədiyimiz proqramın içində çağıra bilərik. Bu isə bizi kod təkrarından azad edir. Modullar 2 yerə bölünür:
+
+  1. Öz yazdığımız modullar
+  2. Hazır modullar
+
+Hər yazdığımız .py faylının bir modul olduğunu qeyd etdik. Python bizim işimizi tezləşdirmək və asanlaşdırmaq üçün bizə hazır moddullar verir.Hazır modullar da öz içlərində 2 yerə bölünür:
+
+  1. Standart Library Modules
+  2. Third Party Modules
+
+Standart kitabxana modulları pyhton yükləyəndə hazır gələn modullardır. Üçüncü şəxs modulları isə üçüncü şəxslər tərəfindən yazılıb istifadəyə verilən modullardır.
+
+## Package nədir?
+
+Package modullar toplusudur deyə bilərik. Modulardan daha geniş bir qavramdır. Python'da ümumiyyətlə package'lərdən çox istifadə olunur. Hər sahə üçün ayrı bir package var. Məsələn, web application yazmaq üçün django, flask istifadə olunur. Yəni, bu framework'lər özlüyündə bir neçə moduldan ibarətdir.
+
+2. Module və package arasındakı fərqlər nələrdir?
+
+ * Yuxarıda da qeyd etdiyim kimi, package modullar toplusudur. Məsələn, os.py bir moduldur, django isə package'dir.Eyni zamanda hər package bir moduldur, ancaq modullar bir package deyildir. Yəni 'venv' package'inə biz 'venv' modulu da deyə bilərik.
+
+3. Web Server nədir?
+
+* Web Server - istifadəçilərin internetdəki web-səhifələrə və digər verilənlərə daxil olmasına şərait yaradan xüsusi proqramlar ilə təmin olunmuş kompüterdir. Web-server web-saytın əsasını təşkil edir. Web-server informasiyaların saxlanılmasını, təşkilini və göndərilməsini təmin edir. Web-server web-brauzerdən qəbul etdiyi sorğu əsasında soruşulan sənədin elektron surətini istifadəçiyə göndərir. Belə sorğuların emal edilməsi və yerinə yetirilmə ardıcıllığı HTTP protokolu vasitəsilə yerinə yetirilir.
+
+4. WSGI nədir?
+
+* Web Server Gateway Interface - Python'da yazılan kodun web-serverin başa düşəcəyi hala gətirən interfeysdir. Veb server request'ləri WSGI'ə göndərir, WSGI isə proramınızı işə salıb bu requestin cavablarını HTML olaraq veb serverə çatdırır.
+
+5. Web Server və WSGI arasındakı fərqlər nələrdir?
+
+* WSGI, veb serverdən fərqli portda işləyir. Yəni, veb serverlər pythonda yazılmış kodu başa düşmürlər bunun üçün WSGI'dən istifadə edirlər
+
+6. HTTP Request nədir?
+
+* Client server tərəfindən veb serverə verilən sorğudur. Əsas iki yerə bölünür:
+
+ * GET request
+ * POST request
+
+7. GET,POST request nə deməkdir?
+
+  * GET request veb serverdən sadəcə məlumat alır.
+  * POST request isə veb serverə məlumat daxil edir.
+
+8. Flask framework necə işləyir?
+
+[Web saytın işləmə məntiqi](https://www.google.com/url?sa=i&url=https%3A%2F%2Fcodeburst.io%2Fflask-for-dummies-a-beginners-guide-to-flask-part-uno-53aec6afc5b1&psig=AOvVaw1TaccmUYQ2PidtOUfrmyWy&ust=1629157628873000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCIjV2qWbtPICFQAAAAAdAAAAABAX)
+
+* Flask (django da həmçinin) jinja2 templete dilindən istifadə edir. Flask ümumiyyətlə python üçün yazılmış bir framework'dür. Vebə bir request göndərdiyimiz zaman, məlumat database'dən alınır, ORM'ə ötürülür, ordan flask framework'ə daha sonra isə HTML olaraq bizə qayıdır.
+
+9. URL nədir? Detalları nədən ibarətdir?
+
+* Uniform Resource Loader - kompüterin serverlə əlaqə qurması üçün istifadə olunur. Domain kimi, ip ünvanlarını sözə çevirərək daha asan yaddaqalan edir.
+
+10. Virtual environment nədir? Nə üçün istifadə olunur?
+
+* Hər bir layihə üçün ayrıca virtual bir mühit yaratmaq üçün istifadə olunur. Əgər hər layihə üçün eyni flask'dən istifadə etsək, flask'də baş verəcək hər dəyişiklik (update) avtomatik olaraq bütün layihələrdə dəyişəcək. Bu isə bir çox hallarda istəməyəcəyimiz bir şeydir. Bu səbəbdən virtual environment bizim üçün daha əlverişlidir.
+
+11. from flask import Flask
+
+    app = Flask(__name__)
+
+    @app.route("/")
+    def hello():
+        return "Hello, World!"
+
+    if __name__=="__main__":
+        app.run(debug=True)
+  Yuxarıda yazılan pyton kodları nə iş görür? Sətir sətir izah etməyə çalışın.
+
+* İlk öncə Flask kitabxanası koda əlavə olunub. Flask sinifindən bir app dəyişəni yaradılaraq, flask kitabxanasının xüsusiyyətlərindən istifadə olunub. app.route() funksiyası ilə səhifə yaradılıb. Səhifənin adresi isə ("/") şəklində ifadə olunub. def hello() funksiyası ilə 'hello world' return edilib (burada HTML səhifəsi də return edilə bilər). Daha sonra, faylın ayrıca proqram yoxsa, başqa bir proqram daxilində import edildiyi yoxlanılıb. Əgər başqa bir modul daxilində import edilibsə __name__ dəyəri həmin modulun adına bərabər olacaq və proqram işləməyəcək. Lakin, ayrıca proqramdırsa, __name__ == __main__ olacaq və şərt doğrulandığı üçün ekranda 'Hello, World!' yazısını görə biləcəyik.
+
