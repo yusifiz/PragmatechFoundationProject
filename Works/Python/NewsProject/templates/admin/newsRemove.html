@@ -1,0 +1,16 @@
+{% extends "admin/base.html" %} {% block content %}
+{% for new in newss %}
+<div class="card">
+    
+    <div class="card-body">
+        <h4 class="card-title">{{new.textName}}</h4>
+        <p class="card-text">{{new.text}}</p>
+        <p class="card-text">{{new.date}}</p>
+        <p class="card-text">{{new.textCont}}</p>
+        <a href="/admin/delete_news/{{new.id}}" class="btn btn-primary">Sil</a>
+        <a href="/admin/change/{{new.id}}" class="btn btn-primary">Dəyişdir</a>
+    </div>
+</div>
+
+{% endfor %}
+{% endblock %}

@@ -1,0 +1,34 @@
+{% extends "admin/base.html" %} {% block content %}
+
+
+<form action="/admin/change/{{new.id}}" method="POST">
+    <div class="mb-3">
+
+        <input type="text" class="form-control" placeholder="Text name.." value="{{new.textName}}" name="textName">
+
+    </div>
+    <div class="mb-3">
+
+        <input type="text" class="form-control" placeholder="Text.." value="{{new.text}}" name="text">
+
+    </div>
+    <div class="mb-3">
+
+        <input type="text" class="form-control" placeholder="Date.." value="{{new.date}}" name="date">
+
+    </div>
+    <div class="mb-3">
+
+        <input type="text" class="form-control" placeholder="Text content.." value="{{new.textCont}}" name="textCont">
+
+    </div>
+
+
+    <div>
+        <button type="submit" class="btn btn-primary">Dəyşdir</button>
+    </div>
+
+</form>
+
+
+{% endblock %}

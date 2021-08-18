@@ -1,0 +1,20 @@
+{% extends 'base.html' %} {% block content %}
+
+{% for new in newss %}
+
+
+
+<div class="card">
+    
+    <div class="card-body">
+        <h4 class="card-title">{{new.textName}}</h4>
+        <!-- <p class="card-text">{{new.text}}</p> -->
+        <p class="card-text">{{new.date}}</p>
+        <p class="card-text">{{new.textCont}}</p>
+        <a href="/showNews/{{new.id}}">Xəbəri oxu</a>
+    </div>
+</div>
+
+{% endfor %}
+
+{% endblock %}

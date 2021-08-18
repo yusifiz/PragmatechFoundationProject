@@ -1,0 +1,34 @@
+{% extends "admin/base.html" %} {% block content %}
+
+
+<form action="/admin/add_news" method="POST">
+    <div class="mb-3">
+
+        <input type="text" class="form-control" placeholder="Text name.." name="textName">
+
+    </div>
+    <div class="mb-3">
+
+        <input type="text" class="form-control" placeholder="Text.." name="text">
+
+    </div>
+    <div class="mb-3">
+
+        <input type="text" class="form-control" placeholder="Date.." name="date">
+
+    </div>
+    <div class="mb-3">
+
+        <input type="text" class="form-control" placeholder="Text content.." name="textCont">
+
+    </div>
+
+
+    <div>
+        <button type="submit" class="btn btn-primary">Əlavə et</button>
+    </div>
+
+</form>
+
+
+{% endblock %}
