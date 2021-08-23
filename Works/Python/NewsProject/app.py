@@ -1,5 +1,7 @@
 import re
-from flask import Flask,render_template,request,redirect
+from flask import Flask, json,render_template,request,redirect,jsonify
+from flask.helpers import make_response
+from werkzeug.wrappers import response
 
 
 
@@ -16,6 +18,12 @@ newss=[]
 
 _id=1
 app = Flask(__name__)
+
+
+# connRead=open('data.json','r')
+# dataFromJson = connRead.read()
+# convertList = json.loads(dataFromJson)
+# newss=convertList
 
 @app.route("/")
 def mainpage():
@@ -47,6 +55,7 @@ def admin_add_news():
         _textCont = request.form['textCont']
         new=News(_id,_text,_textName,_date,_textCont)
         newss.append(new)
+        
         _id +=1
         return redirect ('/')
     return render_template('/admin/add_news.html')
