@@ -1,5 +1,5 @@
-from functools import reduce
 from flask import Flask,redirect,url_for,render_template,request
+import random
 from flask_sqlalchemy import SQLAlchemy
 from werkzeug.utils import secure_filename
 import os
@@ -28,6 +28,8 @@ def admin():
     if request.method=='POST':
         file = request.files['news_img']
         filename = secure_filename(file.filename)
+        randomName = random.randint(1,1000)
+        filename = str(randomName)+ '.'  +filename.split('.')[1]
         file.save(os.path.join(app.config['UPLOAD_FOLDER'], filename))
         title=request.form["news_title"]
         content=request.form["news_content"]
@@ -66,6 +68,7 @@ def show(id):
 
         return render_template("show.html",nws=nws)
     return render_template("show.html",nws=nws)
+
 # db.create_all()
 if __name__ == '__main__':
     app.run(debug=True)
