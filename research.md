@@ -101,7 +101,8 @@
 
 6. Operatorlardan istifadə edərkən, onların yalnız riyazi ifadələr olmadığını bilmək lazımdır. Həmçinin functions, conditional statements(şərti ifadələr), loop'larda (dövr) düzgün istifadə etmək etmək lazımdır.
 
-## Araşdırma 05 (Python, Flask)
+
+## Araşdırma-05 (Python, Flask)
 
 # Suallar və Cavabları
 
@@ -182,4 +183,32 @@ Package modullar toplusudur deyə bilərik. Modulardan daha geniş bir qavramdı
   
 
 * İlk öncə Flask kitabxanası koda əlavə olunub. Flask sinifindən bir app dəyişəni yaradılaraq, flask kitabxanasının xüsusiyyətlərindən istifadə olunub. app.route() funksiyası ilə səhifə yaradılıb. Səhifənin adresi isə ("/") şəklində ifadə olunub. def hello() funksiyası ilə 'hello world' return edilib (burada HTML səhifəsi də return edilə bilər). Daha sonra, faylın ayrıca proqram yoxsa, başqa bir proqram daxilində import edildiyi yoxlanılıb. Əgər başqa bir modul daxilində import edilibsə __name__ dəyəri həmin modulun adına bərabər olacaq və proqram işləməyəcək. Lakin, ayrıca proqramdırsa, __name__ == __main__ olacaq və şərt doğrulandığı üçün ekranda 'Hello, World!' yazısını görə biləcəyik.
+
+
+## Araşdırma-06 (SQL, relation)
+
+# Suallar
+
+1. Relation nədir?
+2. One to one, many to many, one to many nədir?
+3. Primary key, unique, foreign key, not null, autoincrement, constraint - bu ifadələrin mənası nədir?
+
+# Cavablar
+
+1. Relation databasedə data təkrarını aradan qaldırmaq üçün istifadə olunan bir vasitədir. Qısaca, təkrarlanan datanın databasedə hansı table'ların, hansı hissələrində tapılacağını göstərən bir yoldur. 
+Parent table'dakı əsas dataya çatmaq üçün pointerlərin olduğu table'a Child table deyilir...
+
+2. One-To-One : Parent table'dakı bir sətirə qarşılıq,  child table'da sadəcə bir sətir olur.
+   
+   One-To-Many : Parent table'dakı bir sətirə qarşılıq, child table'da bir neçə sətir ola bilər.
+   
+   Many-To-Many : Parent table'dakı bir neçı sətirə qarşılıq, child table'da bir neçə sətir ola bilər.
+
+3. SQL Constraint table'dakı datalar üçün müəyyən qaydalar təmin edir. Bu məhdudiyyətlərə əsasən table'a əlavə olunan dataları ayıra, bölüşdürə bilərik.
+
+   NOT NULL - Bir sütunun dataya sahib olmamağını təmin edir.
+   UNİQUE - Bir sütundakı bütün dataların fərqli olmasını təmin edir.
+   PRİMARY KEY - bir tableda hər sətri fərqli şəkildə müəyyən edir (məsələn id'ə versək, hər sətirə fərqli id veriləcək.). NOT NULL və UNİQUE'nin birləşimidir bir növ.
+   FOREİGN KEY - Başqa table'dakı sətri fərqli şəkildə müəyyən edir.
+   AUTO İNCREMENT - İd'nin artmasını təyin edir.
 
