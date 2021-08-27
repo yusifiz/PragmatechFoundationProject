@@ -10,19 +10,33 @@
 
 * My Portfolio
     - [Kodlar](https://github.com/yusifiz/MyPortfolio)
-    - İşdə istifadə olunan texnologiyalar: HTML, CSS, Bootstrap, JavaScript
+    - İşdə istifadə olunan texnologiyalar: HTML5, CSS3, Bootstrap 5, JavaScript
     - İşin bitmə müddəti: 10 gün (FrontEnd)
 
 * Portfolio Templete
     - [Kodlar](https://github.com/yusifiz/PragmatechFoundationProject/tree/main/Works/HTML-CSS/PortfolioTemplete)
-    - İşdə istifadə olunan texnologiyalar: HTML, CSS, BootStrap
+    - İşdə istifadə olunan texnologiyalar: HTML5, CSS3, BootStrap 5
     - İşin bitmə müddəti: 3 gün (ilk 2 həftədə)
 
 * Instagram clone
     - [Kodlar](https://github.com/yusifiz/PragmatechFoundationProject/tree/main/Works/HTML-CSS/Instagram%20clone)
-    - İşdə istifadə olunan texnologiyalar: HTML, grid layout system, CSS
+    - İşdə istifadə olunan texnologiyalar: HTML5, grid layout system, CSS3
     - İşin bitmə müddəti: 1 gün (ilk 2 həftədə)
 
+* ToDo List
+    - [Kodlar](https://github.com/yusifiz/PragmatechFoundationProject/tree/main/Works/Flask/ToDoList)
+    - İşdə istifadə olunan texnologiyalar: HTML5, Flask, SqlAlchemy
+    - İşin bitmə müddəti: 2 saat
+
+* Rain with JS
+    - [Kodlar](https://github.com/yusifiz/PragmatechFoundationProject/tree/main/Works/JavaScript/Rain)
+    - İşdə istifadə olunan texnologiyalar: HTML5, CSS3, JavaScript
+    - İşin bitmə müddəti: 2 saat
+
+* Analog Clock
+    - [Kodlar](https://github.com/yusifiz/PragmatechFoundationProject/tree/main/Works/JavaScript/analog%20clock)
+    - İşdə istifadə olunan texnologiyalar: HTML5, CSS3, JavaScript
+    - İşin bitmə müddəti: 3 saat
 ## Tədris müddətində yazdığım məqalələr
 
 * [World Wide Web "günü"](https://medium.com/@yusifosmanov475/world-wide-web-g%C3%BCn%C3%BC-cf6fbc3fee2a)
