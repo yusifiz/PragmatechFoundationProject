@@ -8,7 +8,7 @@
 
 ## Tədris müddətində gördüyüm işlər
 
-* My Portfolio
+* [My Portfolio](yusifiz.github.io/MyPortfolio)
     - [Kodlar](https://github.com/yusifiz/MyPortfolio)
     - İşdə istifadə olunan texnologiyalar: HTML5, CSS3, Bootstrap 5, JavaScript
     - İşin bitmə müddəti: 10 gün (FrontEnd)
@@ -40,3 +40,11 @@
 ## Tədris müddətində yazdığım məqalələr
 
 * [World Wide Web "günü"](https://medium.com/@yusifosmanov475/world-wide-web-g%C3%BCn%C3%BC-cf6fbc3fee2a)
+
+* [Proqramlaşdırmaya yeni başlayanlar üçün 8 tövsiyyə](https://medium.com/pragmatech/proqramla%C5%9Fd%C4%B1rmaya-yeni-ba%C5%9Flayanlar-%C3%BC%C3%A7%C3%BCn-8-t%C3%B6vsiyy%C9%99-5d670d113ada)
+
+* [Flask nədir?](https://medium.com/pragmatech/flask-n%C9%99dir-c1acdf4d7fc3)
+
+* [Visual Studio Code faydalı 10 extension](https://medium.com/pragmatech/visual-studio-code-faydal%C4%B1-10-extension-c1c4fc703233)
+
+* [Beyni proqramlamaq/ Fokuslanmaq](https://medium.com/pragmatech/beyni-proqramlamaq-fokuslanmaq-fda30a1c7279)
