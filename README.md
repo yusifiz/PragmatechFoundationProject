@@ -8,7 +8,7 @@
 
 ## Tədris müddətində gördüyüm işlər
 
-* [My Portfolio](yusifiz.github.io/MyPortfolio)
+* [My Portfolio](https://yusifiz.github.io/MyPortfolio)
     - [Kodlar](https://github.com/yusifiz/MyPortfolio)
     - İşdə istifadə olunan texnologiyalar: HTML5, CSS3, Bootstrap 5, JavaScript
     - İşin bitmə müddəti: 10 gün (FrontEnd)
