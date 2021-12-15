@@ -14,6 +14,8 @@ class Todo(db.Model):
     content=db.Column(db.Text)
     complete=db.Column(db.Boolean)
 
+
+
 @app.route("/")
 def index():
     todos = Todo.query.all()
